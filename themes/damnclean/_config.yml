@@ -1,0 +1,33 @@
+menu:
+  Archivos: /archives
+
+widgets:
+- search
+- category
+- tag
+- twitter
+
+excerpt_link:
+
+github:
+  username:  costaricajs
+
+twitter:
+  username: costaricajs
+  show_replies: false
+  tweet_count: 5
+
+addthis:
+  enable: true
+  pubid:
+  facebook: true
+  twitter: true
+  google: true
+  pinterest: false
+
+fancybox: true
+
+google_analytics: UA-33524638-2
+domain: http://costaricajs.github.io
+
+rss: http://feeds.feedburner.com/costaricajs
