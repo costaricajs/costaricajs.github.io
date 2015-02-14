@@ -6,7 +6,7 @@ body
   background color-background
   color color-font
   font-family font-default
-  font-size 14px
+  font-size 16px
   line-height 2
   text-shadow 0 0 1px transparent
   @media screen and (max-width: 1260px)
@@ -29,8 +29,6 @@ h3
 a
   text-decoration none
   color color-link
-  &:hover
-    text-decoration underline
 
 .alignleft
   float left
@@ -61,3 +59,9 @@ a
     margin-right 300px
   @media screen and (max-width: 900px)
     margin-right 0
+
+#content p a
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0) 50%, rgba(0,0,0,0.6) 50%);
+  background-repeat: repeat-x;
+  background-size: 2px 2px;
+  background-position: 0 16px;
