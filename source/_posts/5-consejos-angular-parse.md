@@ -1,3 +1,6 @@
+title: Consejos para utilizar Angular.js con Parse
+---
+
 Actualmente estoy trabajando en [Slidebean](https://slidebean.com), una aplicación de la cual soy co-fundador. Slidebean permite crear presentaciones con excelente diseño en minutos. [Revísenlo aquí](https://www.slidebean.com), ¡es gratis!
 
 Para Slidebean, decidí usar dos de los *frameworks* de aplicaciones más populares en este momento: [AngularJS](http://angularjs.org/) como *framework MVC* en javascript, y [Parse](http://parse.com/) como solución de *back-end* y almacenamiento en la nube. Si no han escuchado de ellos, los invito a que les echen un ojo, porque cada día se hacen más populares.
