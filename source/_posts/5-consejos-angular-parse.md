@@ -12,6 +12,8 @@ Para Slidebean, decidí usar dos de los *frameworks* de aplicaciones más popula
 
 De entrada topé con algunos problemas de incompatibilidad al mezclar Parse con AngularJS. Las siguientes son algunas técnicas que descubrí sobre la marcha para combinarlos, que espero les ahorre tiempo si van a utilizarlos.
 
+<!-- more -->
+
 ###1. Definir *getters* y *setters* para cada propiedad de sus clases de Parse
 
 Parse permite obtener y almacenar propiedades en sus clases utilizando los métodos `get` y `set` de `Parse.Object`. En Slidebean, los usuarios crean presentaciones (`Presentation`), las cuales tienen una propiedad llamada `title` para el título. Digamos entonces que tenemos una variable `presentation` en el `$scope` de nuestro controlador, y queremos desplegar el título en una vista HTML. Haríamos algo como esto:
