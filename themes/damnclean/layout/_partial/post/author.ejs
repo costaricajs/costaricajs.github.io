@@ -1,0 +1,14 @@
+<% if (item.author){ %>
+  <div class="author">
+    <img class='author-image' src='<%= item.authorImg %>' />
+    <p class='author-name'><%= item.author %></p>
+    <p class='author-bio'><%= item.authorBio %></p>
+    <p class='author-sites'>
+      <% if (item.authorTwitter){ %><a href='http://twitter.com/<%= item.authorTwitter %>' target='_blank'>twitter</a><% } %>
+      <% if (item.authorGithub){ %> <a href='http://github.com/<%= item.authorGithub %>' target='_blank'>github</a><% } %>
+      <% if (item.authorWebsite){ %> <a href='<%= item.authorWebsite %>' target='_blank'>website</a><% } %>
+    </p>
+
+  </div>
+  <div class="clearfix"></div>
+<% } %>

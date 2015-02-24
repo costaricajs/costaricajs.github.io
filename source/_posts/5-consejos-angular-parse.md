@@ -1,4 +1,9 @@
 title: Consejos para utilizar Angular.js con Parse
+author: Jose Enrique Bolaños
+authorBio:  Desarrollador de Software. Cofundador y CTO de Slidebean
+authorImg:  http://pbs.twimg.com/profile_images/378800000187243859/2a32f7d9e8b815a398d3412d46511d5c_400x400.jpeg
+authorWebsite:  http://josebolanos.wordpress.com
+authorTwitter: jozenwike
 ---
 
 Actualmente estoy trabajando en [Slidebean](https://slidebean.com), una aplicación de la cual soy co-fundador. Slidebean permite crear presentaciones con excelente diseño en minutos. [Revísenlo aquí](https://www.slidebean.com), ¡es gratis!

@@ -18,6 +18,9 @@
         <%- item.content %>
       <% } %>
     </div>
+    <% if(!index){ %>
+    <%- partial('post/author') %>
+    <% } %>
     <footer>
       <% if (index){ %>
         <% if (item.excerpt && theme.excerpt_link){ %>
@@ -31,6 +34,7 @@
         </div>
         <% } %>
       <% } %>
+
       <div class="clearfix"></div>
     </footer>
   </div>
