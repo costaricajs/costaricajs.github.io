@@ -55,9 +55,9 @@ Ahora sí tenemos una clase modelo que funciona sin problemas con `ng-model`. En
     
 Mucho mejor :)
 
-Esto funciona para propiedades con valores *simples* como *strings* o números. Pero, ¿qué pasa si tuviéramos una propiedad que contiene un puntero hacia otra clase de Parse? También se puede; nada más hay que asegurarse de incluír esa otra clase como dependencia de la primera para que así los *queries* funcionen sin problema.
+Esto funciona para propiedades con valores *simples* como *strings* o números. Pero, ¿qué pasa si tuviéramos una propiedad que contiene un puntero hacia otra clase de Parse? También se puede; nada más hay que asegurarse de incluir esa otra clase como dependencia de la primera para que así los *queries* funcionen sin problema.
 
-Digamos que existe una clase `Comentario` y una clase `Noticia`, y que `Comentario` tiene una propiedad llamada `noticiaPadre`, la cual es un puntero hacia la `Noticia` a la que pertenece el `Comentario`. Si se agrega un `getter` en `Comentario` para `noticiaPadre` **sin** incluír la clase `Noticia` como una dependencia de `Comentario`, entonces ese `getter` siempre retornaría una instancia de `Parse.Object`. Pero si se incluye `Noticia` como dependencia, el `getter` retornará una instancia de `Noticia`.
+Digamos que existe una clase `Comentario` y una clase `Noticia`, y que `Comentario` tiene una propiedad llamada `noticiaPadre`, la cual es un puntero hacia la `Noticia` a la que pertenece el `Comentario`. Si se agrega un `getter` en `Comentario` para `noticiaPadre` **sin** incluir la clase `Noticia` como una dependencia de `Comentario`, entonces ese `getter` siempre retornaría una instancia de `Parse.Object`. Pero si se incluye `Noticia` como dependencia, el `getter` retornará una instancia de `Noticia`.
 
 Este truco suena más complicado de lo que es, jeje. Es similar a lo que se menciona en el punto #3  sobre la clase especial para `User`.
 
@@ -103,7 +103,7 @@ Por ejemplo, un controlador de una barra de navegación que despliega el usuario
     
 ###3. Extender Parse.User e incluirlo desde el inicio
 
-Me pareció que la documentación para extender la clase `Parse.User` no es muy clara. Pero básicamente, si uno quiere extenderla, es igual de fácil que extender cualquier otro `Parse.Object`. La clave es: **asegúrese de incluír su clase especial antes de llamar a `Parse.User.current()` por primera vez**, para que así reciba una instancia de su clase.
+Me pareció que la documentación para extender la clase `Parse.User` no es muy clara. Pero básicamente, si uno quiere extenderla, es igual de fácil que extender cualquier otro `Parse.Object`. La clave es: **asegúrese de incluir su clase especial antes de llamar a `Parse.User.current()` por primera vez**, para que así reciba una instancia de su clase.
 
 En Slidebean, quería tener un método especial llamado `getImage` para los usuarios, donde se abstrajera la complejidad de obtener la imagen del usuario ya sea de Facebook o de Gravatar. Así que extendí la clase `Parse.User` de esta manera:
 
@@ -123,7 +123,7 @@ En Slidebean, quería tener un método especial llamado `getImage` para los usua
         return User;
       });
 
-Luego, nada más nos aseguramos de incluír nuestra clase `SlidebeanUser` como dependencia del método `run` de nuestro app:
+Luego, nada más nos aseguramos de incluir nuestra clase `SlidebeanUser` como dependencia del método `run` de nuestro app:
 
     .run(function($rootScope, $location, SlidebeanUser) {
       Parse.initialize("app id", "llave");
