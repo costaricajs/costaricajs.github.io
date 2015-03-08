@@ -18,15 +18,20 @@ De entrada topé con algunos problemas de incompatibilidad al mezclar Parse con 
 
 Parse permite obtener y almacenar propiedades en sus clases utilizando los métodos `get` y `set` de `Parse.Object`. En Slidebean, los usuarios crean presentaciones (`Presentation`), las cuales tienen una propiedad llamada `title` para el título. Digamos entonces que tenemos una variable `presentation` en el `$scope` de nuestro controlador, y queremos desplegar el título en una vista HTML. Haríamos algo como esto:
 
-    <div>{{ presentation.get("title") }}</div>
+{% codeblock %}
+  <div>{% raw %} {{ presentation.get("title") }} {% endraw %} </div>
+{% endcodeblock %}
 
 Sin embargo, AngularJS utiliza las propiedades simples de los objetos en javascript para leer y cambiar sus valores. Así que si quisiéramos cambiar el título de la presentación usando un campo `input`, la directiva `ng-model` no nos serviría:
 
-    <input type="text" ng-model="presentation.set('title')">
-    <!-- Esto no tiene sentido, pero es para que se entienda el ejemplo: -->
+{% codeblock %}
+<input type="text" ng-model="presentation.set('title')"> 
+<!-- Esto no tiene sentido, pero es para que se entienda el ejemplo: -->
+{% endcodeblock %}
 
 Una forma de solucionar este problema que sugiere [este artículo](https://github.com/jimrhoskins/angular-parse), es olvidarse de usar el *Javascript SDK* de Parse y usar su *REST API* directamente para trabajar con los modelos. Pero hay una solución mucho más simple, y es nada más definir `getters` y `setters` en cada una de sus clases de Parse. Así que usando AngularJS, usamos `factory` para definir una clase modelo llamada `Presentation`. El truco es que, adentro, también definimos un `getter` y un `setter` para cada propiedad. En este ejemplo, sólo tenemos una que se llama `title`:
 
+{% codeblock %}
     angular.module('SlidebeanModels').
       factory('Presentation', function() {
  
@@ -48,10 +53,13 @@ Una forma de solucionar este problema que sugiere [este artículo](https://githu
  
         return Presentation;
       });
+{% endcodeblock %}
       
 Ahora sí tenemos una clase modelo que funciona sin problemas con `ng-model`. Entonces, para actualizar el título de la presentación sólo tenemos que hacer esto:
 
-    <input type="text" ng-model="presentation.title">
+{% codeblock %}   
+<input type="text" ng-model="presentation.title"> 
+{% endcodeblock %}
     
 Mucho mejor :)
 
@@ -65,6 +73,7 @@ Este truco suena más complicado de lo que es, jeje. Es similar a lo que se menc
 
 He leído que (casi) nunca se deben agregar variables al `$rootScope` de su aplicación de AngularJS. Parse provee un método muy conveniente para obtener el usuario que tiene una sesión actual, `Parse.User.current()`. El problema es que los cambios que suceden en esta variable de usuario suceden afuera del mundo de AngularJS, y entonces es difícil seguirles la pista y que sean *digeridos* por Angular. Me parece muy conveniente, entonces, almacenar el usuario actual de Parse en una variable en el `$rootScope` llamada `sessionUser` (o como quiera llamarla), y así también está disponible en el `$scope` de cualquier controlador de la aplicación. Esta variable es inicializada apenas comienza el app de AngularJS:
 
+{% codeblock %}
     angular.module('SlidebeanApp')
       .config(function ($routeProvider, $locationProvider) {
         // Config goes here
@@ -76,11 +85,13 @@ He leído que (casi) nunca se deben agregar variables al `$rootScope` de su apli
         $rootScope.sessionUser = Parse.User.current();
  
       });
+{% endcodeblock %}
       
 Para mantener las cosas un poco ordenadas, hice un *singleton* llamado `SessionService`, y la idea es que este sea el único lugar donde se manipula la variable `$rootScope.sessionUser`. Este servicio maneja inicios y finales de sesión (*log in & log out*), y actualiza la variable según corresponda.
 
 Por ejemplo, un controlador de una barra de navegación que despliega el usuario actual puede reaccionar a esta variable, y modificar la forma en que se ve:
 
+{% codeblock %}
     <!-- Mostrar botones de Ingresar and Registrarse cuando no hay una sesión -->
     <ul ng-show="sessionUser == null">
       <li><button type="button" ng-click="ingresar()">Ingresar</button></li>
@@ -100,6 +111,7 @@ Por ejemplo, un controlador de una barra de navegación que despliega el usuario
         </ul>
       </li>
     </ul>
+{% endcodeblock %}
     
 ###3. Extender Parse.User e incluirlo desde el inicio
 
@@ -107,6 +119,7 @@ Me pareció que la documentación para extender la clase `Parse.User` no es muy 
 
 En Slidebean, quería tener un método especial llamado `getImage` para los usuarios, donde se abstrajera la complejidad de obtener la imagen del usuario ya sea de Facebook o de Gravatar. Así que extendí la clase `Parse.User` de esta manera:
 
+{% codeblock %}
     angular.module('SlidebeanModels').
       factory('SlidebeanUser', function() {
  
@@ -122,9 +135,11 @@ En Slidebean, quería tener un método especial llamado `getImage` para los usua
  
         return User;
       });
+{% endcodeblock %}
 
 Luego, nada más nos aseguramos de incluir nuestra clase `SlidebeanUser` como dependencia del método `run` de nuestro app:
 
+{% codeblock %}
     .run(function($rootScope, $location, SlidebeanUser) {
       Parse.initialize("app id", "llave");
  
@@ -134,6 +149,7 @@ Luego, nada más nos aseguramos de incluir nuestra clase `SlidebeanUser` como de
       // y esto sí funciona (si hay una sesión de usuario, obviamente):
       var imageUrl = $rootScope.sessionUser.getImage();
     })
+{% endcodeblock %}
     
 ###4. Retrase la inicialización del SDK de Facebook hasta después de Parse.
 
@@ -147,6 +163,7 @@ En Slidebean (y sospecho que en muchas aplicaciones), el orden de inicializació
 
 y para lograrlo, nuestro método `run` luce así. Note cómo el código de inicialización del SDK de Facebook está aquí, en vez de estar en alguna parte del HTML donde normalmente se sugiere que se coloque:
 
+{% codeblock %}
     .run(function($rootScope, $location, SlidebeanUser) {
      
       // 1) App de Angular ya está listo y corriendo.
@@ -174,10 +191,13 @@ y para lograrlo, nuestro método `run` luce así. Note cómo el código de inici
         fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));
     });
+{% endcodeblock %}
 
 Pero no olvide colocar esto en el HTML, ya que es algo que el SDK de Facebook requiere:
 
+{% codeblock %}
     <div id="fb-root"></div>
+{% endcodeblock %}
     
 ###5. Envolver los llamados asíncronos de Parse dentro de promesas $q
 
@@ -185,6 +205,7 @@ Se dará cuenta de que es buena idea envolver los llamados asíncronos de Parse 
 
 Digamos que en Slidebean quisiéramos obtener todas las presentaciones que le pertenecen al usuario actual. Primero definimos una clase modelo llamada `Presentation` con un método estático para obtener las presentaciones según su dueño. Dentro de este método, envolvemos el *query* asíncrono usando una promesa `$q`:
 
+{% codeblock %}
     angular.module('SlidebeanModels').
       factory('Presentation', function($q) {
  
@@ -228,9 +249,11 @@ Digamos que en Slidebean quisiéramos obtener todas las presentaciones que le pe
      
      return Presentation;
      });
-     
+{% endcodeblock %}
+
 Luego, dentro de cualquier controlador, si queremos obtener las presentaciones hacemos algo como esto:
 
+{% codeblock %}
     angular.module('SlidebeanApp')
       .controller('DashboardCtrl', function($scope, Presentation) {
      
@@ -240,6 +263,7 @@ Luego, dentro de cualquier controlador, si queremos obtener las presentaciones h
           // Something went wrong, handle the error
         });
       });
+{% endcodeblock %}
       
 Y listo. Ahora la lista de presentaciones se puede desplegar en HTML utilizando `ng-repeat`. 
 
