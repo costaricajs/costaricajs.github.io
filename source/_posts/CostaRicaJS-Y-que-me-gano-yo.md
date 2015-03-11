@@ -14,7 +14,7 @@ Un día un compañera de trabajo, Cristina, tuvo la iniciativa de organizar un g
 
 Tiempo después cuando ya trabajaba de forma independiente desde la casa, sentí aún más la necesidad de tener un lugar al cual poder ir y reunirme con desarrolladores con mi mismo interés en la tecnologías web y javascript en específico. En aquel momento había un grupo llamado GITMO, pero se enfocaban en desarrollo para móviles y otro de jQuery pero que ya no se reunían. Entonces recordé communityjs y me pusé a investigar más sobre el asunto para organizar un hub en Costa Rica y me encontré con [el discurso de Chris Williams en el JSConf.eu del 2010](https://www.youtube.com/watch?v=23Yxji-tEfc) y eso terminó de convencerme. 
 <!-- more -->
-Así entonces empecé identificar y contactar los más gatos en javascript que pude encontrar: Aeron Glemann, Rodolfo Dengo, Franz Pereira, Jasson Cascante, Roberto Rodriguez y amigos como Helga Alvarez y Carlos Barrantes. Ellos apoyaron mucho mi idea y me motivaron, mientras otros decían que no iba a funcionar, que el tico es no intiende estas cosas y todas las tonteras que la gente mediocre de este país quiere creer. Roberto, quien estaba trabajando una interfaz de línea de comando para desarrollar aplicaciones en javascript rápidamente, [fue el primero en presentar en CostaRicaJS](http://www.meetup.com/costaricajs/events/64431202/) y fue todo un éxito, pueden leer los comentarios. Juan Muñoz nos facilitó la instalaciones de YUXX. Para mí fue muy emocionante ver tanta gente interesada, muchos con quienes había trabajado o inclusive me habían dado clases en algún momento. 
+Así entonces empecé identificar y contactar los más gatos en javascript que pude encontrar: Aeron Glemann, Rodolfo Dengo, Franz Pereira, Jasson Cascante, Roberto Rodriguez y amigos como Helga Alvarez y Carlos Barrantes. Ellos apoyaron mucho mi idea y me motivaron, mientras otros decían que no iba a funcionar, que el tico no intiende estas cosas y todas las tonteras que la gente mediocre de este país quiere creer. Roberto, quien estaba trabajando una interfaz de línea de comando para desarrollar aplicaciones en javascript rápidamente, [fue el primero en presentar en CostaRicaJS](http://www.meetup.com/costaricajs/events/64431202/) y fue todo un éxito, pueden leer los comentarios. Juan Muñoz nos facilitó la instalaciones de YUXX. Para mí fue muy emocionante ver tanta gente interesada, muchos con quienes había trabajado o inclusive me habían dado clases en algún momento. 
 
 Yo dí algunas palabras, pero estaba tan nervioso que creo que no logré decir lo quería y hasta la fecha siento que no se ha comunicado bien los objetivos de la comunidad. Aunque creo que la mayoría de los que van a los eventos tiene una idea.
 
@@ -24,14 +24,15 @@ En tecnología hoy en día, y en particular el mundo web debes mantenerte actual
 
 Las empresas y los desarrolladores pueden beneficiarmes de muchas maneras con la existencia de una comunidad fuerte y activa. Los beneficios para los desarrolladores son un poco obvios:
 
-- aprender nuevas técnicas de desarrollo y tecnologías
-- aprender de la experiencia obtenida por desarrolladores en otros proyectos
-- conocer diferentes personas con experiencia diferentes herramientas y tecnologías
-- contar con un plataforma donde exponer tu trabajo a la industria
-- contar con un punto de encuetro donde compartir con otros javascripters fuera de círculo de amigos cercanos 
+- Aprender nuevas técnicas de desarrollo y tecnologías. 
+- Aprender de la experiencia obtenida por desarrolladores en otros proyectos. 
+- Conocer diferentes personas con experiencia diferentes herramientas y tecnologías. 
+- Contar con un plataforma donde exponer tu trabajo a la industria.
+- Contar con un punto de encuetro donde compartir con otros javascripters fuera de círculo de amigos cercanos. 
 
 Personalmente CostaRicaJS me ha permitido conocer ticos muy talentosos que de que otra manera no hubiera podido conocer y he aprendido muchísimo de ellos y también nos hemos hecho muy buenos amigos. Personas muy interesantes con muchas ideas.
 
-Las empresas por otra parte se puede beneficiar del conocimiento adquiridos en las reuniones; de contar con una comunidad donde encontrar __talento enfocado en nuevas tecnologías__ para sus proyectos. Las compañías deben promover la participación de sus desarrolladores en la comunidad. Pueden también organizar meetups para mostrar su trabajo y cultura ingenieril para atraer más desarrolladores. 
+Las empresas por otra parte se puede beneficiar del conocimiento adquiridos en las reuniones; de contar con una comunidad donde encontrar __talento enfocado en nuevas tecnologías__ para sus proyectos. Las compañías deben promover la participación de sus desarrolladores en la comunidad. Pueden también organizar meetups para mostrar su trabajo y cultura ingenieril para atraer más desarrolladores. Las empresas son quienes se benefician del talento, deben creer y aportar a la comunidad por medio de patrocinios, algunas como Edify Consulting y Backcountry.com ya han dado este paso.
+
 
 
