@@ -33,7 +33,7 @@ Conforme la aplicación crece y se agregan más controladores, modelos y vistas 
 
 Cuando el usuario interactúa con la interfaz gráfica múltiples ramas de código son ejecutadas y encontrar errores y correr pruebas sobre el estado de la apliación se vuelve una tarea muy difícil en la cual básicamente se tiene que tratar de adivinar en cual de todos los puntos se encuentra el error. En los peores casos una interacción causa actualizaciones adicionales en cascada haciendo la tarea aún mas dura.
 
-Flux evita este diseño en favor de un flujo de datos en una sola direción. Todas las interaciones dentro de un vista llaman un "creador de acciones" que a su vez llama el "despachador" de tipo singleton que es responsable de emitir un evento de tipo "acción" al cual los "almacenes" se pueden subscribir. Estos "almacenes" responden a la acción y se auto-actualizan.
+Flux evita este diseño en favor de un flujo de datos en una sola direción. Todas las interaciones dentro de un vista llaman un "creador de acciones" que a su vez llama el "despachador" de tipo singleton que es responsable de emitir un evento de tipo "acción" al cual los "almacenes" se pueden subscribir. Estos "almacenes" responden a la acción y se autoactualizan.
 
 <div class='centered-img'>
 {% asset_img flux-simple.png %}
@@ -45,7 +45,7 @@ El flujo no cambia mucho cuando se agregan almacenes y vistas adicionales. El de
 {% asset_img flux-complejo.png %}
 </div>
 
-Cuando los almacenes se actualizan emiten un evento "cambio" al cual los vistas reaccionan y muestra actualizan la interfaz gráfica del usuario. En muchas aplicaciones basadas en React es común tener vistas "especiales" responsables for observar este evento, leer los nuevos datos en el almacén y pasar la información a través de propiedades a las vistas hijas.
+Cuando los almacenes se actualizan emiten un evento "cambio" al cual los vistas reaccionan y actualizan la interfaz gráfica del usuario. En muchas aplicaciones basadas en React es común tener vistas "especiales" responsables for observar este evento, leer los nuevos datos en el almacén y pasar la información a través de propiedades a las vistas hijas.
  
 
 ## Caraterística Principales
@@ -54,21 +54,21 @@ La arquitectura flux tiene propiedades que la hacen única y provee importantes 
 
 ### Sincronía
 
-El despachador de acciones las funciones dentro de los almacenos son síncronos. Todas las operaciones asincrónicas deben invocar una acción le comunica al sistema el resultado de la operación. Los creadores de acciones pueden llamar APIs asyncrónicamente, los almacenes idealmente no lo deben hacer. Esta regla hace que el flujo de información sea extremadamente explícito y en caso de errores facilmente se puede identificar la acción ese estado erróneo de la applicación.
+El despachador de acciones y las funciones dentro de los almacenes son síncronos. Todas las operaciones asincrónicas deben invocar una acción le comunica al sistema el resultado de la operación. Los creadores de acciones pueden llamar APIs asyncrónicamente, los almacenes idealmente no lo deben hacer. Esta regla hace que el flujo de información sea extremadamente explícito y en caso de errores facilmente se puede identificar la acción ese estado erróneo de la applicación.
 
 ### Inversión del Control
 
-Los almacenes se autoactualiza en respuesta a acciones en lugar de ser acutalizados por un controllador o modulo similar, ningún otro componente de la apliación contiene lógica sobre como actualizar el estado. Como las almacenes se autoactualizan y únicame sincrónicamente, realizar pruebas es tan sencillo como inicializar con un estado específico, invocar un acción y verificar que el estado final es el esperado. 
+Los almacenes se autoactualizan en respuesta a acciones en lugar de ser acutalizados por un controllador o modulo similar, ningún otro componente de la aplicación contiene lógica sobre como actualizar el estado. Como las almacenes se autoactualizan y únicame sincrónicamente, realizar pruebas es tan sencillo como inicializar con un estado específico, invocar un acción y verificar que el estado final es el esperado. 
 
 ### Acciones Semánticas
 
-Las acciones tienden a ser semanticamente descriptivas. Por ejemplo, en un chat basado en flux para marcar un conversación como leída probablemente se invocaría una acción de tipo "marcar_conversacion_como_leida". La acción y el componente que genera la acción no sabe como hacer la actualización, pero describe lo que quiere que suceda.
+Las acciones tienden a ser semanticamente descriptivas. Por ejemplo, en un chat basado en flux para marcar un conversación como leída probablemente se invocaría una acción de tipo "marcar_conversacion_como_leida". La acción y el componente que genera la acción no saben como hacer la actualización, pero describe lo que quiere que suceda.
 
 Por esta propiedad raramente se tendrá que cambiar el tipo de las acciones, unicamente como los almacenes responden a ellas.
 
 ### Cero Acciones en Cascada
 
-Flux no permite despachar una segunda acción como resultado de una primera acción, esto ayuda a prevenir actualizaciones en cascada que son difíciles de mantener y debuggear. Además ayuda a pensar en las interaciones de la applicación en una forma más semantica.
+Flux no permite despachar una segunda acción como resultado de una primera acción, esto ayuda a prevenir actualizaciones en cascada que son difíciles de mantener y debuggear. Además ayuda a pensar en las interaciones de la applicación en una forma más semántica.
 
 <div class="refs">
 __Lectura Adicional en Inglés__
