@@ -32,7 +32,7 @@ Las empresas y los desarrolladores pueden beneficiarmes de muchas maneras con la
 
 Personalmente CostaRicaJS me ha permitido conocer ticos muy talentosos que de que otra manera no hubiera podido conocer y he aprendido muchísimo de ellos y también nos hemos hecho muy buenos amigos. Personas muy interesantes con muchas ideas.
 
-Las empresas por otra parte se puede beneficiar del conocimiento adquiridos en las reuniones; de contar con una comunidad donde encontrar __talento enfocado en nuevas tecnologías__ para sus proyectos. Las compañías deben promover la participación de sus desarrolladores en la comunidad. Pueden también organizar meetups para mostrar su trabajo y cultura ingenieril para atraer más desarrolladores. Las empresas son quienes se benefician del talento, deben creer y aportar a la comunidad por medio de patrocinios, algunas como Edify Consulting y Backcountry.com ya han dado este paso.
+Las empresas por otra parte se puede beneficiar del conocimiento adquiridos en las reuniones; de contar con una comunidad donde encontrar __talento enfocado en nuevas tecnologías__ para sus proyectos. Las compañías deben promover la participación de sus desarrolladores en la comunidad. Pueden también organizar meetups para mostrar su trabajo y cultura ingenieril para atraer más desarrolladores. Las empresas son quienes se benefician del talento, deben creer y aportar a la comunidad por medio de patrocinios. Edify Consulting y Backcountry.com ya han dado este paso. También One Community, una iniciativa de Google hace poco empezó a patrocinar eventos relacionados con tecnologías de Google.
 
 
 
