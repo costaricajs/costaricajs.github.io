@@ -13,13 +13,13 @@ authorWebsite:  http://gaboesquivel.com
 authorTwitter: gaboesquivel
 ---
 
-Flux es una arquitectura desiñada por Facebook junto con [React](http://facebook.github.io/react/), la librería para vistas. Se enfoca en crear __flujos de datos explícitidos y entendibles__ , lo cual hace más sencillo seguir los cambios en el estado de la applicación y por ende los errores más fáciles de encontrar y corregir. 
+Flux es una arquitectura diseñada por Facebook junto con [React](http://facebook.github.io/react/), la librería para vistas. Se enfoca en crear __flujos de datos explícitidos y entendibles__ , lo cual hace más sencillo seguir los cambios en el estado de la applicación y por ende los errores más fáciles de encontrar y corregir. 
 
 <div class='centered-img'>
 {% asset_img data-flow.png %}
 </div>
 
-Para comprender mejor la arquitectura Flux comparémola con MVC o Modelo-Vista-Controlador, uno de los patrones más utilizado en el desarrollo de aplicaciones. En MVC el controlador es responsable de coordinar los cambios en 1 o más modelos y lo hace mediante llamadas a métodos en los modelos. Cuando los modelos cambian, se notifican las vistas las cuales a su vez leen los nuevos datos del modelo y se actualizan de acuerdo a esos cambios para que el usuario pueda ver los nuevo datos o estado.
+Para comprender mejor la arquitectura Flux comparémola con MVC o Modelo-Vista-Controlador, uno de los patrones más utilizados en el desarrollo de aplicaciones. En MVC el controlador es responsable de coordinar los cambios en 1 o más modelos y lo hace mediante llamadas a métodos en los modelos. Cuando los modelos cambian, se notifican las vistas las cuales a su vez leen los nuevos datos del modelo y se actualizan de acuerdo a esos cambios para que el usuario pueda ver los nuevo datos o estado.
 <!-- more -->
 <div class='centered-img'>
 {% asset_img mvc-simple.png %}
@@ -50,7 +50,7 @@ Cuando los almacenes se actualizan emiten un evento "cambio" al cual los vistas 
 
 ## Caraterística Principales
 
-La arquitectura flux tiene propiedades que la hacen única y provee importantes garantías, todas giran al rededor de un flujo de datos explícito y fácil de entender, aumentando la capacidad de seguir, reproducir y realizar pruebas en estados de aplicación específicos.
+La arquitectura flux tiene propiedades que la hacen única y provee importantes garantías, todas giran alrededor de un flujo de datos explícito y fácil de entender, aumentando la capacidad de seguir, reproducir y realizar pruebas en estados de aplicación específicos.
 
 ### Sincronía
 
