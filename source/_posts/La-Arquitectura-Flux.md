@@ -45,8 +45,7 @@ El flujo no cambia mucho cuando se agregan almacenes y vistas adicionales. El de
 {% asset_img flux-complejo.png %}
 </div>
 
-Cuando los almacenes se actualizan emiten un evento "cambio" al cual los vistas reaccionan y actualizan la interfaz gráfica del usuario. En muchas aplicaciones basadas en React es común tener vistas "especiales" responsables for observar este evento, leer los nuevos datos en el almacén y pasar la información a través de propiedades a las vistas hijas.
- 
+Cuando los almacenes se actualizan emiten un evento "cambio" al cual los vistas reaccionan y actualizan la interfaz gráfica del usuario. En muchas aplicaciones basadas en React es común tener "contenedores" responsables for observar este evento, leer los nuevos datos en el almacén y pasar la información a través de propiedades a las vistas dentro del contenedor. Los contenedores encapsulan un componente de la interfaz gráfica, por ejemplo un caja de búsqueda con completación automática que se compone de varias vistas y componentes.
 
 ## Caraterística Principales
 
