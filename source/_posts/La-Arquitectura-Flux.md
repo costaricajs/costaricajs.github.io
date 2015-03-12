@@ -49,7 +49,7 @@ El flujo no cambia mucho cuando se agregan almacenes y vistas adicionales. El de
 
 Cuando los almacenes se actualizan emiten un evento "cambio" al cual los vistas reaccionan y actualizan la interfaz gráfica del usuario. En muchas aplicaciones basadas en React es común tener "contenedores" responsables for observar este evento, leer los nuevos datos en el almacén y pasar la información a través de propiedades a las vistas dentro del contenedor. Los contenedores encapsulan un componente de la interfaz gráfica, por ejemplo un caja de búsqueda con completación automática que se compone de varias vistas y componentes.
 
-## Caraterística Principales
+## Caraterísticas Principales
 
 La arquitectura flux tiene propiedades que la hacen única y provee importantes garantías, todas giran alrededor de un flujo de datos explícito y fácil de entender, aumentando la capacidad de seguir, reproducir y realizar pruebas en estados de aplicación específicos.
 
