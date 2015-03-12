@@ -11,6 +11,8 @@ authorBio:  Desarrollador de Software y Organizador de CostaRicaJS.
 authorImg:  https://pbs.twimg.com/profile_images/463588456405286912/8pzG9zlt.jpeg
 authorWebsite:  http://gaboesquivel.com
 authorTwitter: gaboesquivel
+cover: http://costaricajs.github.io/2015/03/La-Arquitectura-Flux/flux-simple.png
+description: Flux es una arquitectura diseñada por Facebook junto con React, la librería para vistas. Se enfoca en crear flujos de datos explícitos y entendibles, lo cual hace más sencillo seguir los cambios en el estado de la applicación y por ende los errores más fáciles de encontrar y corregir. 
 ---
 
 Flux es una arquitectura diseñada por Facebook junto con [React](http://facebook.github.io/react/), la librería para vistas. Se enfoca en crear __flujos de datos explícitos y entendibles__ , lo cual hace más sencillo seguir los cambios en el estado de la applicación y por ende los errores más fáciles de encontrar y corregir. 

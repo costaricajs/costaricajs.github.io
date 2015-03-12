@@ -6,6 +6,8 @@ authorBio:  Desarrollador de Software y Organizador de CostaRicaJS.
 authorImg:  https://pbs.twimg.com/profile_images/463588456405286912/8pzG9zlt.jpeg
 authorWebsite:  http://gaboesquivel.com
 authorTwitter: gaboesquivel
+cover: http://photos1.meetupstatic.com/photos/event/d/1/1/c/600_434513532.jpeg
+description: Educación y Networking son los principales objetivos de la comunidad. En tecnología hoy en día, y en particular el mundo web debes mantenerte actualizado y es una tarea díficil, se necesita dedicación y las lecciones aprendidas en el mundo laboral tardan un cierto tiempo en llegar a la aulas de las universidades. Si tienes un PhD, realmente no importa mucho si no te actualizas constantemente, pero con tanta información muchas veces no hay nada mejor como conocer a la persona indicada a quién le puedes preguntar.
 ---
 
 En el 2011 yo trabajaba como Ingeniero de UI para el sitio americanexpress.com en Bosz Digital, en Lindora. Era apenas mi segundo trabajo en el área de programación y estaba muy entusiasmado estudiando y experimentado las posibilidades con las tecnologías web. Tenía que estudiar mucho en el tiempo libre, lo que me habían enseñado en la universidad no era suficiente para el trabajo que necesitaba realizar, los cursos sobre patrones y proyectos de programación con el Profesor Antonio Luna sirvieron muchísimo sin lugar a duda, pero la naturaleza de la plataforma web exige un constante actualización. Pasaba muchas horas leyendo blogs, viendos videos del google i/o y otras conferencias por youtube, leía en el bus de camino al trabajo, escuchaba podcasts, lo hacía siempre por mi cuenta. 
