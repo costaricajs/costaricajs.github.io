@@ -13,7 +13,7 @@ authorWebsite:  http://gaboesquivel.com
 authorTwitter: gaboesquivel
 ---
 
-Flux es una arquitectura diseñada por Facebook junto con [React](http://facebook.github.io/react/), la librería para vistas. Se enfoca en crear __flujos de datos explícitidos y entendibles__ , lo cual hace más sencillo seguir los cambios en el estado de la applicación y por ende los errores más fáciles de encontrar y corregir. 
+Flux es una arquitectura diseñada por Facebook junto con [React](http://facebook.github.io/react/), la librería para vistas. Se enfoca en crear __flujos de datos explícitos y entendibles__ , lo cual hace más sencillo seguir los cambios en el estado de la applicación y por ende los errores más fáciles de encontrar y corregir. 
 
 <div class='centered-img'>
 {% asset_img data-flow.png %}
@@ -39,7 +39,7 @@ Flux evita este diseño en favor de un flujo de datos en una sola direción. Tod
 {% asset_img flux-simple.png %}
 </div>
 
-El flujo no cambia mucho cuando se agregan almacenes y vistas adicionales. El despachador simplemente envía cada acción a todos los almacenes en la aplicación y no tiene no conoce los detalles de como estos almacenes se actualiza, cada almacén contiene su propia lógica de negocios. Cada almacén es reponsable de área o dominio de la apliación y se solo se auto-actualizan en respuesta a acciones.
+El flujo no cambia mucho cuando se agregan almacenes y vistas adicionales. El despachador simplemente envía cada acción a todos los almacenes en la aplicación y no conoce los detalles de como estos almacenes se actualizan, cada almacén contiene su propia lógica de negocios. Cada almacén es reponsable de área o dominio de la apliación y se solo se autoactualizan en respuesta a acciones.
 
 <div class='centered-img'>
 {% asset_img flux-complejo.png %}
@@ -58,7 +58,7 @@ El despachador de acciones las funciones dentro de los almacenos son síncronos.
 
 ### Inversión del Control
 
-Los almacenes se autoactualiza en respuesta a acciones en lugar de ser acutalizados por un controllador o modulo similar, ningún otro componente de la apliación contiene lógica sobre como actualizar el estado. Como las almacenes se autoactualizan y únicame sincrónicamente, realizar pruebas es tan sencillo como initializar con un estado especifico, invocar un acción y verificar que el estado final es el esperado. 
+Los almacenes se autoactualiza en respuesta a acciones en lugar de ser acutalizados por un controllador o modulo similar, ningún otro componente de la apliación contiene lógica sobre como actualizar el estado. Como las almacenes se autoactualizan y únicame sincrónicamente, realizar pruebas es tan sencillo como inicializar con un estado específico, invocar un acción y verificar que el estado final es el esperado. 
 
 ### Acciones Semánticas
 
