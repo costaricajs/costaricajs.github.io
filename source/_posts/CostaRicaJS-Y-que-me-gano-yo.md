@@ -1,6 +1,9 @@
 title: "CostaRicaJS.. Y qué me gano yo?"
 date: 2015-03-10 20:31:41
+categories: 
+- artículos
 tags:
+- comunidad
 author: Gabo Esquivel
 authorBio:  Desarrollador de Software y Organizador de CostaRicaJS.
 authorImg:  https://pbs.twimg.com/profile_images/463588456405286912/8pzG9zlt.jpeg
