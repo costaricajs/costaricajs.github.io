@@ -1,6 +1,13 @@
 title: "Resumen NodeSchool International Day - Mayo 2015"
 date: 2015-05-25 16:40:52
+categories:
+- bitácora
 tags:
+- nodeschool
+- nodejs
+- javascript
+cover: http://costaricajs.github.io/2015/05/Resumen-NodeSchool-International-Day-Mayo-2015-San-Jose-Costa-Rica/nodeschool-international-day-costarica-2015.jpg
+description: El pasado sábado 23 de Mayo la comunidad de desarrollo en javascript en Costa Rica se reunió para celebrar el Día Internacional de NodeSchool en la ciudad de San José. 
 ---
 
 
