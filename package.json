@@ -6,7 +6,7 @@
     "node": "0.10.28"
   },
   "hexo": {
-    "version": "3.0.0"
+    "version": "3.1.1"
   },
   "dependencies": {
     "hexo": "^3.0.0",

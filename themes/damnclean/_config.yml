@@ -1,6 +1,8 @@
 menu:
+  Inicio: /
   Eventos: http://meetup.com/costaricajs
-  Archivos: /archives
+  Blog: /archives
+  FAQ: /views/faq
 
 widgets:
 - search
