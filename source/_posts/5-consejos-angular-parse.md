@@ -1,4 +1,5 @@
 title: Consejos para utilizar Angular.js con Parse
+date: 2015-03-07
 author: Jose Enrique Bolaños
 authorBio:  Desarrollador de Software. Cofundador y CTO de Slidebean
 authorImg:  http://pbs.twimg.com/profile_images/378800000187243859/2a32f7d9e8b815a398d3412d46511d5c_400x400.jpeg
