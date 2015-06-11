@@ -1,6 +1,13 @@
 <div class="alignleft">
-  <h1><a href="<%- config.root %>"><%= config.title %></a></h1>
-  <h2><a href="<%- config.root %>"><% if (config.subtitle){ %><%= config.subtitle %><% } %></a></h2>
+    <div class="header-container">
+        <div class="header-container-section">
+            <img class="header-logo-image" src="/img/CostaRicaJS-Sloth.png" />
+        </div>
+        <div class="header-container-section">
+            <h1><a href="<%- config.root %>"><%= config.title %></a></h1>
+            <h2><a href="<%- config.root %>"><% if (config.subtitle){ %><%= config.subtitle %><% } %></a></h2>
+        </div>
+    </div>
 </div>
 <nav id="main-nav">
   <ul>
