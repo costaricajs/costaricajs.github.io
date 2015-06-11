@@ -2,7 +2,7 @@ menu:
   Inicio: /
   Eventos: http://meetup.com/costaricajs
   Blog: /archives
-  FAQ: /views/faq
+  FAQ: /public/views/faq
 
 widgets:
 - search
