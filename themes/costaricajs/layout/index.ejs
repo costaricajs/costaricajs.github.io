@@ -3,8 +3,14 @@
  Somos parte de <a target="_blank" href="http://communityjs.org">CommunityJS</a>. Visita nuestro calendario de eventos en <a target="_blank" href="http://meetup.com/CostaRicaJS">meetup.com/costaricajs</a></p>
  </div>
 
+
+ <!--- nuevo contenido --->
+
+<h3>Últimas Publicaciones</h3>
 <% page.posts.each(function(item){ %>
-  <%- partial('_partial/article', {item: item, index: true}) %>
+  <%- partial('_partial/post/link', {item: item, index: true}) %>
 <% }); %>
 
-<%- partial('_partial/pagination') %>
+
+
+
