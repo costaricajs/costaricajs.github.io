@@ -13,6 +13,6 @@ Si estás interesado en colaborar en el desarrollo del sitio puede ayudar [compl
 
 El sitio esta construido con [hexo](http://hexo.io/), los cambios son realizados en el _branch source_
 
-Si tienes dudas puedes escribir en el [chat de costaricajs](http://costaricajs.slack.com) en slack.  necesitamos implementar esto https://github.com/CostaRicaJS/costaricajs.github.io/issues/10
+Si tienes dudas u otras ideas las podemos discutir aqui https://github.com/CostaRicaJS/costaricajs.github.io/issues
 
-
+necesitamos implementar esto https://github.com/CostaRicaJS/costaricajs.github.io/issues/10 para mejor comunicacion
