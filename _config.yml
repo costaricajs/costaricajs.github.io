@@ -16,8 +16,8 @@ url: http://costaricajs.github.io
 root: /
 permalink: :year/:month/:title/
 tag_dir: tags
-archive_dir: archives
-category_dir: categories
+archive_dir: archivo
+category_dir: categorías
 code_dir: downloads/code
 permalink_defaults:
 
@@ -79,7 +79,7 @@ disqus_shortname: costaricajs
 # Extensions
 ## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
 ## Themes: https://github.com/hexojs/hexo/wiki/Themes
-theme: damnclean
+theme: costaricajs
 exclude_generator:
 
 # Deployment
