@@ -1,26 +1,41 @@
-<!-- << IMPORT CSS >>-->
-<%- css('/css/index.css') %>
-
-<!-- << BODY >>-->
-<div class="main-logo-container">
-    <img class="main-logo-image" src="/img/nodeschool-2015.jpg" />    
-</div>
-
-
-<div class="intro">
-    <p>Comunidad de profesionales en desarrollo de software que prefieren JavaScript. Organizamos reuniones abiertas en un ambiente informal para intercambiar ideas y compartir nuestros conocimientos en tecnología, técnicas y herramientas de desarrollo.
-     Somos parte de <a class="u-link" target="_blank" href="http://communityjs.org">CommunityJS</a>. Visita nuestro calendario de eventos en <a class="u-link" target="_blank" href="http://meetup.com/CostaRicaJS">meetup.com/costaricajs</a></p>
- </div>
-
-
-
+ <%- css('/css/index.css') %>
+ 
  <!--- nuevo contenido --->
+<div class="container index-container">
+   
+   <div class="row">
+       <div class="col-md-12 title-container">
+           <h3 class="title-main">Últimas Publicaciones</h3>   
+       </div>
+   </div>
+   
+    <div class="posts-container u-center">
+        <% page.posts.each(function(item){ %>
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6 post-container">           
+                    <div class="post-link">
+                        <%- partial('_partial/post/link', {item: item, index: true}) %>
+                    </div>
+                    <div class="post-detail">
+                        <span class="post-letters">
+                            <span class="glyphicon glyphicon-time"></span>
+                            <%- new Date(item.date).toLocaleDateString() %>
+                        </span>  
+                    </div>
+                    <% if (item.author) { %>
+                        <div class="post-detail">
+                            <span class="post-letters">
+                                <span class="glyphicon glyphicon-user"></span>
+                                <%- item.author %>
+                            </span>  
+                        </div>
+                    <% }%>
 
-<h3>Últimas Publicaciones</h3>
-<% page.posts.each(function(item){ %>
-  <%- partial('_partial/post/link', {item: item, index: true}) %>
-<% }); %>
-
-
-
-
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+        <% }); %>
+    </div>
+    
+</div>

@@ -1,20 +1,54 @@
-<div class="alignleft">
-    <div class="header-container">
-        <div class="header-container-section">
-            <img class="header-logo-image" src="/img/CostaRicaJS-Sloth.png" />
-        </div>
-        <div class="header-container-section">
-            <h1><a href="<%- config.root %>"><%= config.title %></a></h1>
-            <h2><a href="<%- config.root %>"><% if (config.subtitle){ %><%= config.subtitle %><% } %></a></h2>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+    <div class="nav-brand-container">
+       <div class="nav-section-container">
+           <img class="nav-image" src="/img/CostaRicaJS-Sloth.png" />   
+       </div>
+        <div class="nav-section-container">
+            <a class="navbar-brand" href="/">CostaRicaJS</a>    
         </div>
     </div>
-</div>
-<nav id="main-nav">
-  <ul>
-    <% for (var i in theme.menu){ %>
-      <li><a href="<%- theme.menu[i] %>"><%= i %></a></li>
-    <% } %>
-  </ul>
-  <div class="clearfix"></div>
+      
+    </div>
+
+    <div class="collapse navbar-collapse" id="menu">
+        
+        <ul class="nav navbar-nav navbar-right">
+           <!-- EVENTOS -->
+            <li>
+                <a href="http://meetup.com/costaricajs" title="Eventos">
+                    <span class="glyphicon glyphicon-calendar"></span>&nbsp;Eventos
+                </a>
+            </li>
+            <li class="divider"></li>
+            <!-- ARCHIVOS -->
+            <li>
+                <a href="/archivo" title="Archivos"><span class="glyphicon glyphicon-text-background"></span>&nbsp;Archivos</a>
+            </li>
+            <!-- ACERCA -->
+            <li>
+                <a href="/views/acerca/" title="Acerca de CostaRicaJS">
+                    <span class="glyphicon glyphicon-info-sign"></span>&nbsp;Acerca
+                </a>
+            </li>
+            <li class="divider"></li>
+            <!-- GITHUB FORK -->
+            <li>
+                <a href="https://github.com/CostaRicaJS/costaricajs.github.io" title="Github Fork">
+                    <img class="menu-img" src="/img/github.svg" />&nbsp;Github Fork
+                </a>
+            </li>
+        </ul>
+        
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
 </nav>
-<div class="clearfix"></div>
