@@ -7,10 +7,11 @@ tags:
 - arquitectura
 - patrones
 author: Gabo Esquivel
-authorBio:  Desarrollador de Software y Organizador de CostaRicaJS.
-authorImg:  https://pbs.twimg.com/profile_images/463588456405286912/8pzG9zlt.jpeg
+authorBio:  esarrollador de Software, Organizador de CostaRicaJS. Arquitecto de Aplicaciones Web y fundador Cortical Touch, una empresa de desarrollo y consultoría especializada en JavaScript.
+authorImg:  https://pbs.twimg.com/profile_images/605919319029989376/xelykfGd_400x400.png
 authorWebsite:  http://gaboesquivel.com
 authorTwitter: gaboesquivel
+authorGithub: gaboesquivel
 cover: http://costaricajs.github.io/2015/03/La-Arquitectura-Flux/flux-simple.png
 description: Flux es una arquitectura diseñada por Facebook junto con React, la librería para vistas. Se enfoca en crear flujos de datos explícitos y entendibles, lo cual hace más sencillo seguir los cambios en el estado de la aplicación y por ende los errores más fáciles de encontrar y corregir. 
 ---
