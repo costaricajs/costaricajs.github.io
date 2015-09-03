@@ -13,7 +13,7 @@ authorTwitter: gaboesquivel
 authorGithub: gaboesquivel
 authorBlog: http://gaboesquivel.com
 cover: http://costaricajs.github.io/2015/06/Como-mantenerse-actualizado-en-JavaScript-y-seguirle-el-paso-al-open-source/learning.jpg
-description: El ecosistema de desarrollo en JavaScript es vibrante y está en rápido crecimiento, hay una gran cantidad de bibliotecas, frameworks y herramientas que están en constante evolución y cada día nuevas soluciones, técnicas y módulos con publicados. 
+description: El ecosistema de desarrollo en JavaScript es vibrante y está en rápido crecimiento, hay una gran cantidad de bibliotecas, frameworks y herramientas que están en constante evolución y cada día nuevas soluciones, técnicas y módulos con publicados.
 
 ---
 
@@ -21,15 +21,15 @@ description: El ecosistema de desarrollo en JavaScript es vibrante y está en r�
 El ecosistema de desarrollo en JavaScript es vibrante y está en rápido crecimiento, hay una gran cantidad de bibliotecas, frameworks y herramientas que están en constante evolución y cada día nuevas soluciones, técnicas y módulos son publicados. El lenguaje en sí está evolucionando rápidamente con las nuevas versiones de ECMAScript, la carrera de los navegadores para implementar esas especificaciones y muchos transpilers y polyfills.
 
 Esto no es una específico de JavaScript, la tecnología en general evoluciona rápido y el open source aún más rápido. La siguiente es una lista de sitios y consejos útiles para estar al día.
-
+<!-- more -->
 ## Todo lo semanal de Peter Cooper
 
 Peter Cooper es un desarrollador de software y empresario, editor en jefe en CooperPress, Presidente de O'Reilly, FluentConf y OSCON. El curador de una serie de boletines por correo electrónico semanales que resumen la información importante para usted.
-- [JavaScript Weekly](http://javascriptweekly.com/)   
-- [HTML5 Weekly](http://html5weekly.com/)   
-- [Node Weekly](http://nodeweekly.com/)      
-- [Web Ops Weekly](http://webopsweekly.com/)   
-- [Mobile Web Weekly](http://mobilewebweekly.co/)   
+- [JavaScript Weekly](http://javascriptweekly.com/)
+- [HTML5 Weekly](http://html5weekly.com/)
+- [Node Weekly](http://nodeweekly.com/)
+- [Web Ops Weekly](http://webopsweekly.com/)
+- [Mobile Web Weekly](http://mobilewebweekly.co/)
 
 Estos boletines semanales comisariada realmente hacen que sea más fácil encontrar el contenido relevante.
 
@@ -38,12 +38,12 @@ Estos boletines semanales comisariada realmente hacen que sea más fácil encont
 Dá estrellas, monitorea, colabora y seguir los desarrolladores que contribuyen a proyectos que usa regularmente, lo que comentan, lo que proponen ... Siguiendo las personas adecuadas se hace más fácil estar al día. Leer el feed de noticias de GitHub con frecuencia y revisar los issues y la lista de pull requrests de los proyectos que te interesan.
 
 ## Siga las listas "awesome":
-- [sindresorhus/awesome](https://github.com/sindresorhus/awesome)   
-- [sorrycc/awesome-javascript](https://github.com/sorrycc/awesome-javascript)   
-- [ericelliot/essential-javascript-links](https://github.com/ericelliott/essential-javascript-links)   
-- [bayandin/awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness)   
-- [sindresorhus/awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs)   
-- [enaqx/awesome-react](https://github.com/enaqx/awesome-react)   
+- [sindresorhus/awesome](https://github.com/sindresorhus/awesome)
+- [sorrycc/awesome-javascript](https://github.com/sorrycc/awesome-javascript)
+- [ericelliot/essential-javascript-links](https://github.com/ericelliott/essential-javascript-links)
+- [bayandin/awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness)
+- [sindresorhus/awesome-nodejs](https://github.com/sindresorhus/awesome-nodejs)
+- [enaqx/awesome-react](https://github.com/enaqx/awesome-react)
 - [addyosmani/es6-tools](https://github.com/addyosmani/es6-tools)
 
 ## The Changelog Nightly
@@ -65,31 +65,31 @@ Me encantan los podcasts, pueden escucharlos mientras conducen o caminan y repro
 Suscribirse a los blogs de ingeniería de las empresas y desarrolladores líderes. Estos son algunos que me gustan:
 
 ### Company blogs  
-- Bocoup: [bocoup.com/weblog](http://bocoup.com/weblog/)   
-- Nodesource: [nodesource.com/blog](https://nodesource.com/blog)   
-- AndYet: [blog.andyet.com](https://blog.andyet.com/)   
-- AirBnB Engineering: [nerds.airbnb.com](http://nerds.airbnb.com/)   
-- Netflix Tech Blog: [techblog.netflix.com](http://techblog.netflix.com)   
-- Code as Craft (Etsy’s tech blog): [codeascraft.com](http://codeascraft.com)   
-- Facebook Engineering: [facebook.com/Engineering](http://facebook.com/Engineering)   
-- NPM Blog: [blog.npmjs.org](http://blog.npmjs.org/)   
-- Thoughtworks: [thoughtworks.com/blogs](http://www.thoughtworks.com/blogs)   
+- Bocoup: [bocoup.com/weblog](http://bocoup.com/weblog/)
+- Nodesource: [nodesource.com/blog](https://nodesource.com/blog)
+- AndYet: [blog.andyet.com](https://blog.andyet.com/)
+- AirBnB Engineering: [nerds.airbnb.com](http://nerds.airbnb.com/)
+- Netflix Tech Blog: [techblog.netflix.com](http://techblog.netflix.com)
+- Code as Craft (Etsy’s tech blog): [codeascraft.com](http://codeascraft.com)
+- Facebook Engineering: [facebook.com/Engineering](http://facebook.com/Engineering)
+- NPM Blog: [blog.npmjs.org](http://blog.npmjs.org/)
+- Thoughtworks: [thoughtworks.com/blogs](http://www.thoughtworks.com/blogs)
 
-### Developer blogs   
-- Sir Brendan Eich: [brendaneich.com](https://brendaneich.com/)     
-- Axel Rauschmayer:  [2ality.com](http://www.2ality.com/)   
-- Martin Fowler: [martinfowler.com](http://martinfowler.com/)   
-- Jeff Atwood: [Coding Horror](http://blog.codinghorror.com/)   
-- Alex Sexton: [alexsexton.com](https://alexsexton.com/)   
-- Substack: [substack.net](http://substack.net/)   
-- Nicholas Zakas: [nczonline.net](http://www.nczonline.net/)   
-- Paul Irish: [paulirish.com](http://paulirish.com)   
-- Addy Osmani: [addyosmani.com/blog](http://addyosmani.com/blog/)    
-- Nicolas Bevacqua: [ponyfoo.com](http://ponyfoo.com/)   
-- David Walsh: [davidwalsh.name](http://davidwalsh.name/)   
+### Developer blogs
+- Sir Brendan Eich: [brendaneich.com](https://brendaneich.com/)
+- Axel Rauschmayer:  [2ality.com](http://www.2ality.com/)
+- Martin Fowler: [martinfowler.com](http://martinfowler.com/)
+- Jeff Atwood: [Coding Horror](http://blog.codinghorror.com/)
+- Alex Sexton: [alexsexton.com](https://alexsexton.com/)
+- Substack: [substack.net](http://substack.net/)
+- Nicholas Zakas: [nczonline.net](http://www.nczonline.net/)
+- Paul Irish: [paulirish.com](http://paulirish.com)
+- Addy Osmani: [addyosmani.com/blog](http://addyosmani.com/blog/)
+- Nicolas Bevacqua: [ponyfoo.com](http://ponyfoo.com/)
+- David Walsh: [davidwalsh.name](http://davidwalsh.name/)
 
-### Medium   
-- [Node and JavaScript](https://medium.com/node-js-javascript)   
+### Medium
+- [Node and JavaScript](https://medium.com/node-js-javascript)
 - [Mikeal](https://medium.com/@mikeal)
 - [Eric Elliott](https://medium.com/@_ericelliott)
 - [DevChannel](https://medium.com/dev-channel)

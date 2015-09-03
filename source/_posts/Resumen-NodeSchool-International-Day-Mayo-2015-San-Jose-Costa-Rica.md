@@ -7,14 +7,14 @@ tags:
 - nodejs
 - javascript
 cover: http://costaricajs.github.io/2015/05/Resumen-NodeSchool-International-Day-Mayo-2015-San-Jose-Costa-Rica/nodeschool-international-day-costarica-2015.jpg
-description: El pasado sábado 23 de Mayo la comunidad de desarrollo en javascript en Costa Rica se reunió para celebrar el Día Internacional de NodeSchool en la ciudad de San José. 
+description: El pasado sábado 23 de Mayo la comunidad de desarrollo en javascript en Costa Rica se reunió para celebrar el Día Internacional de NodeSchool en la ciudad de San José.
 ---
 
 
-Al igual que en muchos otros países del mundo; el pasado sábado 23 de Mayo la comunidad de desarrollo en javascript en Costa Rica se reunió para celebrar el Día Internacional de NodeSchool en la ciudad de San José. 
+Al igual que en muchos otros países del mundo; el pasado sábado 23 de Mayo la comunidad de desarrollo en javascript en Costa Rica se reunió para celebrar el Día Internacional de NodeSchool en la ciudad de San José.
 
-NodeSchool es una iniciativa de comunidad que busca enseñar JavaScript y Node.js a través de talleres presenciales utilizando módulos interactivos que te ayudan a aprender o mejorar, escribiendo código y resolviendo problemas con la ayuda de mentores. En cada módulo hay retos que puedes pasar a tu propio ritmo. Sin charlas aburridas. Todos los retos son software libre y están disponibles en nodeschool.io por lo que puedes seguir aprendiendo después del evento o bien puedes empezar desde la casa
-
+NodeSchool es una iniciativa de comunidad que busca enseñar JavaScript y Node.js a través de talleres presenciales utilizando módulos interactivos que te ayudan a aprender o mejorar, escribiendo código y resolviendo problemas con la ayuda de mentores. En cada módulo hay retos que puedes pasar a tu propio ritmo. Sin charlas aburridas. Todos los retos son software libre y están disponibles en nodeschool.io por lo que puedes seguir aprendiendo después del evento o bien puedes empezar desde la casa.
+<!-- more -->
 <div class='centered-img'>
 {% asset_img nodeschool-international-day-costarica-2015-2.jpg %}
 </div>
