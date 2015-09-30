@@ -6,9 +6,8 @@ tags:
 - open source
 - javascript
 author: Gabo Esquivel
-authorBio:  Desarrollador de Software, Organizador de CostaRicaJS. Arquitecto de Aplicaciones Web y fundador Cortical Touch, una empresa de desarrollo y consultoría especializada en JavaScript.
+authorBio:  Desarrollador de Software y Arquitecto de Aplicaciones Web. Organizador de CostaRicaJS y colaborador en proyectos open source.
 authorImg:  https://pbs.twimg.com/profile_images/605919319029989376/xelykfGd_400x400.png
-authorWebsite:  http://corticaltouch.com
 authorTwitter: gaboesquivel
 authorGithub: gaboesquivel
 authorBlog: http://gaboesquivel.com

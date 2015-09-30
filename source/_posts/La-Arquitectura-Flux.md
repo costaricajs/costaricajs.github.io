@@ -7,16 +7,16 @@ tags:
 - arquitectura
 - patrones
 author: Gabo Esquivel
-authorBio:  esarrollador de Software, Organizador de CostaRicaJS. Arquitecto de Aplicaciones Web y fundador Cortical Touch, una empresa de desarrollo y consultoría especializada en JavaScript.
+authorBio:  Desarrollador de Software y Arquitecto de Aplicaciones Web. Organizador de CostaRicaJS y colaborador en proyectos open source.
 authorImg:  https://pbs.twimg.com/profile_images/605919319029989376/xelykfGd_400x400.png
 authorWebsite:  http://gaboesquivel.com
 authorTwitter: gaboesquivel
 authorGithub: gaboesquivel
 cover: http://costaricajs.github.io/2015/03/La-Arquitectura-Flux/flux-simple.png
-description: Flux es una arquitectura diseñada por Facebook junto con React, la librería para vistas. Se enfoca en crear flujos de datos explícitos y entendibles, lo cual hace más sencillo seguir los cambios en el estado de la aplicación y por ende los errores más fáciles de encontrar y corregir. 
+description: Flux es una arquitectura diseñada por Facebook junto con React, la librería para vistas. Se enfoca en crear flujos de datos explícitos y entendibles, lo cual hace más sencillo seguir los cambios en el estado de la aplicación y por ende los errores más fáciles de encontrar y corregir.
 ---
 
-Flux es una arquitectura diseñada por Facebook junto con [React](http://facebook.github.io/react/), la librería para vistas. Se enfoca en crear __flujos de datos explícitos y entendibles__ , lo cual hace más sencillo seguir los cambios en el estado de la aplicación y por ende los errores más fáciles de encontrar y corregir. 
+Flux es una arquitectura diseñada por Facebook junto con [React](http://facebook.github.io/react/), la librería para vistas. Se enfoca en crear __flujos de datos explícitos y entendibles__ , lo cual hace más sencillo seguir los cambios en el estado de la aplicación y por ende los errores más fáciles de encontrar y corregir.
 
 <div class='centered-img'>
 {% asset_img data-flow.png %}
@@ -60,7 +60,7 @@ El despachador de acciones y las funciones dentro de los almacenes son síncrono
 
 ### Inversión del Control
 
-Los almacenes se autoactualizan en respuesta a acciones en lugar de ser acutalizados por un controlador o modulo similar, ningún otro componente de la aplicación contiene lógica sobre como actualizar el estado. Como los almacenes se autoactualizan en respuesta a acciones y únicamente sincrónicamente, realizar pruebas es tan sencillo como inicializar con un estado específico, invocar un acción y verificar que el estado final es el esperado. 
+Los almacenes se autoactualizan en respuesta a acciones en lugar de ser acutalizados por un controlador o modulo similar, ningún otro componente de la aplicación contiene lógica sobre como actualizar el estado. Como los almacenes se autoactualizan en respuesta a acciones y únicamente sincrónicamente, realizar pruebas es tan sencillo como inicializar con un estado específico, invocar un acción y verificar que el estado final es el esperado.
 
 ### Acciones Semánticas
 
