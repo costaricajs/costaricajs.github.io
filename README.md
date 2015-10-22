@@ -15,6 +15,8 @@ El sitio esta construido con [hexo](http://hexo.io/), los cambios son realizados
 
 Si tienes dudas u otras ideas las podemos discutir aqui https://github.com/CostaRicaJS/costaricajs.github.io/issues
 
+#### IRC
+Nos puedes visitar en [#costaricajs en irc.freenode.net](http://webchat.freenode.net/?channels=costaricajs)
 
 <!-- Please don't remove this: Grab your social icons from https://github.com/carlsednaoui/gitsocial -->
 
