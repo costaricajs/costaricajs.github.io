@@ -15,6 +15,9 @@ El sitio esta construido con [hexo](http://hexo.io/), los cambios son realizados
 
 Si tienes dudas u otras ideas las podemos discutir aqui https://github.com/CostaRicaJS/costaricajs.github.io/issues
 
+### Slack
+[![Slack Status](http://slack.costaricajs.co/badge.svg)](http://slack.costaricajs.co)
+
 #### IRC
 Nos puedes visitar en [#costaricajs en irc.freenode.net](http://webchat.freenode.net/?channels=costaricajs)
 
