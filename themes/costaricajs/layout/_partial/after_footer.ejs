@@ -11,5 +11,58 @@
 <script type="text/javascript">stLight.options({publisher: "37c69562-a76a-4f8f-92f3-633301f43292", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
 
 <!-- JQUERY & BOOTSTRAP -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="<%- config.root %>css/libs/bootstrap-3.3.4-dist/js/bootstrap.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.js"></script>
+
+<script id="organizers-template" type="text/x-handlebars-template">
+  <div style="height:300px; overflow:hidden;" class="col-md-4 col-sm-6 centered">
+  {{#if twitter}}
+  <img class="img img-circle" src="https://twitter.com/{{twitter}}/profile_image?size=original" height="120px" width="120px" alt="">
+  {{else}}
+  <img class="img img-circle" src="https://avatars.githubusercontent.com/{{github}}?s=120" height="120px" width="120px" alt="">
+  {{/if}}
+  <br>
+  <h4><b>{{name}}</b></h4>
+  <p style="font-size:11px;">{{bio}}</p>
+  <p>
+    {{#if website}}<a target="_blank" href="{{website}}" class="fa fa-pencil-square-o"></a>{{/if}}
+    {{#if twitter}}<a target="_blank" href="http://twitter.com/{{twitter}}" class="fa fa-twitter"></a>{{/if}}
+    {{#if github}}<a target="_blank" href="http://github.com/{{github}}" class="fa fa-github"></a>{{/if}}
+  </p>
+  </div>
+</script>
+
+<script>
+
+;(function ($, Handlebars) {
+  var organizersUrl = 'http://raw.githubusercontent.com/CostaRicaJS/organizers/master/organizers-data.json'
+
+  $(function() {
+    if(!$('#organizers-container').length){
+      return;
+    }
+
+    var organizersTemplate = Handlebars.compile($('#organizers-template').html())
+
+    $.getJSON(organizersUrl).then(displayOrganizers, handleError)
+
+    function handleError (err) {
+      $('#organizers-container').html('esto es vergonsozo! lo sentimos pero no pudimos obtener la información de los organizadores')
+      console.error('cannot obtain organizers and mentors data \n', err)
+    }
+
+    function displayOrganizers (organizers) {
+      var html = ''
+      $.each(organizers, function (person, personData) {
+        html += organizersTemplate(personData)
+      })
+      $('#organizers-container').html(html)
+    }
+  })
+
+})(window.jQuery, window.Handlebars)
+
+
+</script>
