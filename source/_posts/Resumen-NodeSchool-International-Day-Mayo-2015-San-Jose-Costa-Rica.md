@@ -7,6 +7,13 @@ tags:
 - nodejs
 - javascript
 cover: http://costaricajs.github.io/2015/05/Resumen-NodeSchool-International-Day-Mayo-2015-San-Jose-Costa-Rica/nodeschool-international-day-costarica-2015.jpg
+author: Gabo Esquivel
+authorBio:  Desarrollador de Software y Arquitecto de Aplicaciones Web. Organizador de CostaRicaJS y colaborador en proyectos open source.
+authorImg:  https://twitter.com/gaboesquivel/profile_image?size=original
+authorTwitter: gaboesquivel
+authorGithub: gaboesquivel
+authorBlog: http://gaboesquivel.com
+authorWebsite:  http://corticaltouch.com
 description: El pasado sábado 23 de Mayo la comunidad de desarrollo en javascript en Costa Rica se reunió para celebrar el Día Internacional de NodeSchool en la ciudad de San José.
 ---
 

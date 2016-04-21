@@ -5,7 +5,13 @@ categories:
 - bitácora
 cover: http://costaricajs.github.io/2015/04/Resumen-del-evento-Paintball-js/paintball.js.jpg
 description: El pasado sábado 11 de Abril nos reunimos varios de los miembros del grupo Costa Rica JS, esta vez rompimos un poco el esquema y nos fuimos para territorio de Under Fire Paintball.
-
+author: Gabo Esquivel
+authorBio:  Desarrollador de Software y Arquitecto de Aplicaciones Web. Organizador de CostaRicaJS y colaborador en proyectos open source.
+authorImg:  https://twitter.com/gaboesquivel/profile_image?size=original
+authorTwitter: gaboesquivel
+authorGithub: gaboesquivel
+authorBlog: http://gaboesquivel.com
+authorWebsite:  http://corticaltouch.com
 ---
 
 El pasado sábado 11 de Abril nos reunimos varios de los miembros del grupo Costa Rica JS, esta vez rompimos un poco el esquema y nos fuimos para territorio de Under Fire Paintball.

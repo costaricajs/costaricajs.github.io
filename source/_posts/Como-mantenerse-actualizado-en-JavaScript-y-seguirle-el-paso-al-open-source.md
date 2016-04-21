@@ -7,10 +7,11 @@ tags:
 - javascript
 author: Gabo Esquivel
 authorBio:  Desarrollador de Software y Arquitecto de Aplicaciones Web. Organizador de CostaRicaJS y colaborador en proyectos open source.
-authorImg:  https://pbs.twimg.com/profile_images/605919319029989376/xelykfGd_400x400.png
+authorImg:  https://twitter.com/gaboesquivel/profile_image?size=original
 authorTwitter: gaboesquivel
 authorGithub: gaboesquivel
 authorBlog: http://gaboesquivel.com
+authorWebsite:  http://corticaltouch.com
 cover: http://costaricajs.github.io/2015/06/Como-mantenerse-actualizado-en-JavaScript-y-seguirle-el-paso-al-open-source/learning.jpg
 description: El ecosistema de desarrollo en JavaScript es vibrante y está en rápido crecimiento, hay una gran cantidad de bibliotecas, frameworks y herramientas que están en constante evolución y cada día nuevas soluciones, técnicas y módulos con publicados.
 

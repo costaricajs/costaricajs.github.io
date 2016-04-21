@@ -6,10 +6,11 @@ tags:
 - comunidad
 author: Gabo Esquivel
 authorBio:  Desarrollador de Software y Arquitecto de Aplicaciones Web. Organizador de CostaRicaJS y colaborador en proyectos open source.
-authorImg:  https://pbs.twimg.com/profile_images/605919319029989376/xelykfGd_400x400.png
+authorImg:  https://twitter.com/gaboesquivel/profile_image?size=original
 authorTwitter: gaboesquivel
 authorGithub: gaboesquivel
 authorBlog: http://gaboesquivel.com
+authorWebsite:  http://corticaltouch.com
 cover: http://photos1.meetupstatic.com/photos/event/d/1/1/c/600_434513532.jpeg
 description: Educación y Networking son los principales objetivos de la comunidad. En tecnología hoy en día, y en particular el mundo web debes mantenerte actualizado y es una tarea díficil, se necesita dedicación y las lecciones aprendidas en el mundo laboral tardan un cierto tiempo en llegar a la aulas de las universidades. Si tienes un PhD, realmente no importa mucho si no te actualizas constantemente, pero con tanta información muchas veces no hay nada mejor como conocer a la persona indicada a quién le puedes preguntar.
 ---
