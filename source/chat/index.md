@@ -3,6 +3,8 @@ date: 2016-05-17 20:06:44
 comments: false
 ---
 
+<h2 style="text-align:center;"><a href="http://slack.costaricajs.co" target="_blank">slack.costaricajs.co</a></h2>
+
 ## Objetivos Generales
 Facilitar la comunicación entre los integrantes de la comunidad de CostaRicaJS y proveer un canal el cual permita a todas aquellas personas interesadas ser parte de la misma.
 
@@ -18,7 +20,8 @@ Facilitar la comunicación entre los integrantes de la comunidad de CostaRicaJS 
 2. La comunidad de CostaRicaJS no se responsabiliza por las opiniones y comentarios emitidos por los participantes.
 3. La comunidad de CostaRicaJS se reserva el derecho de retirar en cualquier momento, y a su criterio, los mensajes o integrantes que vayan en contra de las reglas del chat.
 4. La comunidad no se responsabiliza de los daños que provengan de este servicio.
-5. Recomendaciones al usuario antes de acceder el servicio de chat:
+5. Se prohibe publicar ofertas de trabajo. Contactar la organización de Costa Rica JS para la publicación de ofertas.
+6. Recomendaciones al usuario antes de acceder el servicio de chat:
 - Mantener la cortesía con los integrantes.
 - No utilizar lenguaje ofensivo o calumnioso.
 - Dialogar sobre temas acorde a la naturaleza del chat.
