@@ -1,0 +1,39 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/laura/.nvm/versions/node/v4.1.1/bin/node',
+1 verbose cli   '/home/laura/.nvm/versions/node/v4.1.1/bin/npm',
+1 verbose cli   'start' ]
+2 info using npm@2.14.4
+3 info using node@v4.1.1
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info prestart costaricajs.github.io@0.1.0
+6 info start costaricajs.github.io@0.1.0
+7 verbose unsafe-perm in lifecycle true
+8 info costaricajs.github.io@0.1.0 Failed to exec start script
+9 verbose stack Error: costaricajs.github.io@0.1.0 start: `hexo s`
+9 verbose stack Exit status 2
+9 verbose stack     at EventEmitter.<anonymous> (/home/laura/.nvm/versions/node/v4.1.1/lib/node_modules/npm/lib/utils/lifecycle.js:214:16)
+9 verbose stack     at emitTwo (events.js:87:13)
+9 verbose stack     at EventEmitter.emit (events.js:172:7)
+9 verbose stack     at ChildProcess.<anonymous> (/home/laura/.nvm/versions/node/v4.1.1/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+9 verbose stack     at emitTwo (events.js:87:13)
+9 verbose stack     at ChildProcess.emit (events.js:172:7)
+9 verbose stack     at maybeClose (internal/child_process.js:817:16)
+9 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+10 verbose pkgid costaricajs.github.io@0.1.0
+11 verbose cwd /home/laura/proyectos/costaricajs.github.io
+12 error Linux 3.16.0-77-generic
+13 error argv "/home/laura/.nvm/versions/node/v4.1.1/bin/node" "/home/laura/.nvm/versions/node/v4.1.1/bin/npm" "start"
+14 error node v4.1.1
+15 error npm  v2.14.4
+16 error code ELIFECYCLE
+17 error costaricajs.github.io@0.1.0 start: `hexo s`
+17 error Exit status 2
+18 error Failed at the costaricajs.github.io@0.1.0 start script 'hexo s'.
+18 error This is most likely a problem with the costaricajs.github.io package,
+18 error not with npm itself.
+18 error Tell the author that this fails on your system:
+18 error     hexo s
+18 error You can get their info via:
+18 error     npm owner ls costaricajs.github.io
+18 error There is likely additional logging output above.
+19 verbose exit [ 1, true ]
