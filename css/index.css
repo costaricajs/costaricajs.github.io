@@ -1,0 +1,33 @@
+.ultimas-publicaciones {
+  margin-bottom: 112px;
+  margin-top: 50px;
+}
+.title-container {
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.title-main {
+  font-family: OpenSans-Light;
+  font-size: 36px;
+  text-align: center;
+}
+.post-li {
+  list-style: none;
+}
+.post-container {
+  margin: 16px;
+  padding-bottom: 8px;
+  overflow: hidden;
+}
+.post-link {
+  display: block;
+  display: block;
+  font-family: OpenSans-Regular;
+  font-size: 16px;
+  padding-bottom: 8px;
+}
+.post-detail {
+  display: inline-block;
+  padding-right: 8px;
+}

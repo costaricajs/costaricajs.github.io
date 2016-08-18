@@ -1,0 +1,63 @@
+body {
+  font-family: OpenSans-Regular;
+  font-size: 16px;
+}
+strong {
+  font-family: OpenSans-Bold;
+}
+h1,
+h2,
+h3 {
+  text-align: left;
+  font-weight: 500 !important;
+}
+#content ul {
+  margin: 0 !important;
+}
+.costaricajs-nav-logo {
+  display: inline-block !important;
+  float: left;
+  margin-top: -5px;
+  margin-right: 10px !important;
+}
+.nav-image {
+  vertical-align: super;
+  width: 30px;
+  padding-bottom: 4px;
+  margin-right: 4px;
+}
+.navbar,
+.navbar-default .navbar-collapse,
+.navbar .navbar-default .navbar-form {
+  background-color: #fff;
+}
+.menu-img {
+  width: 14px;
+  height: 16px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 6px;
+}
+.u-center {
+  text-align: center;
+}
+.preguntas-frecuentes {
+  margin: 50px 0 30px !important;
+}
+.preguntas-frecuentes dt {
+  font-family: OpenSans-Bold;
+  margin: 10px 0;
+  font-size: 1.1em;
+}
+.preguntas-frecuentes dd {
+  margin-bottom: 40px;
+}
+.homepage .hero-img {
+  max-width: 100%;
+  height: auto;
+  border: none;
+  margin: 30px 0;
+}
+.centered {
+  text-align: center;
+}
